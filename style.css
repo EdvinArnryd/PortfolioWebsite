@@ -16,3 +16,8 @@ ul {
 strong {
     color: #0074d9;
 }
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+}
