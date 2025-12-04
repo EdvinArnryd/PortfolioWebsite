@@ -34,11 +34,31 @@ a{
     box-shadow: 0 0 15px rgba(0, 234, 255, 0.15);
     transition: 0.3s;
     margin: 10px;
-    max-width: 300px;
+    max-width: 600px;
     min-width: 300px;
 }
 
 .card:hover {
     box-shadow: 0 0 25px rgba(0, 234, 255, 0.4);
     transform: translateY(-4px);
+}
+
+.infoCard{
+    background: #1a1a1a;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: #00ff001a;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.15);
+    transition: 0.2s;
+    margin: 2px;
+    max-width: 200px;
+    min-width: 20px;
+    font-size: 18px;
+}
+
+.infoCard:hover {
+    background-color:#8686862a;
 }
