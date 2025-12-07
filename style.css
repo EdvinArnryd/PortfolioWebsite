@@ -80,3 +80,8 @@ a{
 .infoCard:hover {
     background-color:#8686862a;
 }
+
+.sectionSpacing {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
