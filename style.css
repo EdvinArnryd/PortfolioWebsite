@@ -22,6 +22,10 @@ a{
     color:rgb(0, 134, 0);
 }
 
+.container{
+    margin:40px;
+}
+
 .cardParent{
     display: flex;
     justify-content: center;
