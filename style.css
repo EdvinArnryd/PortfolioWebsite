@@ -103,6 +103,14 @@ a{
 .contentSection {
     background-color: #b4b4b42a;
     max-width: 1000px;
+    min-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.textSection{
+    background-color: #8f8f8f2a;
+    max-width: 800px;
     min-width: 300px;
     margin: 0 auto;
     padding: 20px;
