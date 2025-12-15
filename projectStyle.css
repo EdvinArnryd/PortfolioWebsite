@@ -96,8 +96,8 @@ a {
 }
 
 .sectionSpacing {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .contentSection {
@@ -126,4 +126,11 @@ a {
     border-radius: 10px;
     margin-top: 50px;
     border: rgba(20, 129, 38, 0.281) 5px solid;
+}
+
+.Thumb{
+    max-width: 1000px;
+    min-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(17, 156, 133);
 }
