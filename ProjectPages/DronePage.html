@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edvin Arnryd</title>
+    <link rel="stylesheet" href="../projectStyle.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="menu">
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="Assets/General/Cv Edvin Arnryd.pdf" target="_blank">Resumé</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>Drone AI</h1>
+
+        <img src="../Assets/Images/Drone/Thumb.png" width="400pxs" class="Thumb">
+
+        <h2>Tools used</h2>        
+        
+        <div class="infoCardParent sectionSpacing">
+            <div class="infoCard">
+                <p>C#</p>
+            </div>
+            <div class="infoCard">
+                <p>Unity</p>
+            </div>
+            <div class="infoCard">
+                <p>OOP</p>
+            </div>
+            <div class="infoCard">
+                <p>Coroutines</p>
+            </div>
+            <div class="infoCard">
+                <p>Statemachine</p>
+            </div>
+            <div class="infoCard">
+                <p>Object Pooling</p>
+            </div>
+        </div>
+
+        <div class="contentSection sectionSpacing">
+            <h2>Introduction</h2>
+            <p class="textSection">
+                Finite State Machine Drone AI built in Unity. The goal of this project was
+                to create a drone that drops bombs in random locations. Using a finite statemachine,
+                The drone automatically controls where to go, when to perform different actions and
+                return to the start of the loop. Using the animation controller to sync the statemachine 
+                with the animation states, made the drone come to life. 
+                <br><br>
+                For the Bombs I used object pooling for better performance and clean up. Using Unity's
+                own pooling system made it easy to add the necessary functions and let Unity handle the
+                rest.
+        </div>
+
+        
+       
+    </main>
+
+    <footer>
+        <a href="https://github.com/EdvinArnryd" target="_blank">Github</a>
+    </footer>
+
+</body>
+
+</html>
