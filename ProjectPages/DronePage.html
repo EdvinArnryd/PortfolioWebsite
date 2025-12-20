@@ -22,8 +22,17 @@
 
     <main>
         <h1>Drone AI</h1>
+        
+        <a href="https://github.com/EdvinArnryd/Drone-AI" target="_blank" class="thumbWrapper">
+            <img src="../Assets/Images/Drone/Thumb.png" class="Thumb">
+        
+            <div class="thumbOverlay">
+                <div class="thumbText">
+                    View Project on GitHub
+                </div>
+            </div>
+        </a>
 
-        <img src="../Assets/Images/Drone/Thumb.png" width="400pxs" class="Thumb">
 
         <h2>Tools used</h2>        
         
@@ -41,7 +50,7 @@
                 <p>Coroutines</p>
             </div>
             <div class="infoCard">
-                <p>Statemachine</p>
+                <p>FSM</p>
             </div>
             <div class="infoCard">
                 <p>Object Pooling</p>
@@ -52,9 +61,9 @@
             <h2>Introduction</h2>
             <p class="textSection">
                 Finite State Machine Drone AI built in Unity. The goal of this project was
-                to create a drone that drops bombs in random locations. Using a finite statemachine,
+                to create a drone that drops bombs in random locations. Using a finite state machine,
                 The drone automatically controls where to go, when to perform different actions and
-                return to the start of the loop. Using the animation controller to sync the statemachine 
+                return to the start of the loop. Using the animation controller to sync the state machine 
                 with the animation states, made the drone come to life. 
                 <br><br>
                 For the Bombs I used object pooling for better performance and clean up. Using Unity's
@@ -62,8 +71,27 @@
                 rest.
         </div>
 
-        
-       
+        <div class="contentSection sectionSpacing">
+            <h2>Finite State Machine</h2>
+            <img src="../Assets/Images/Drone/StateMachine.png">
+            <p class="textSection">
+                The finite state machine is a coroutine that always plays that plays the same
+                animation that the state is in, when the coroutine is finished, a new state starts and the
+                cycle continues forever. 
+            </p>
+        </div>
+
+        <div class="contentSection sectionSpacing">
+            <h2>Object Pooling</h2>
+            <img src="../Assets/Images/Drone/ObjectPooling.png">
+            <p class="textSection">
+                The object pooling is used on the "bombs" that the drone drops. This is 
+                to improve performance in the long run. This is being done with Unity's
+                own Object Pooling system. With the interface, I define the different functions
+                and behavior I want when I spawn and remove the bombs.
+            </p>
+        </div>
+    
     </main>
 
     <footer>
